@@ -1,0 +1,153 @@
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #FF9933, #FFFFFF, #138808);
+    padding: 15px 20px;
+    color: #000080; /* Navy Blue Text */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000080; /* Ashoka Chakra Blue */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.nav-links a,
+.nav-links span {
+    text-decoration: none;
+    color: #000080;
+    padding: 10px 15px;
+    display: block;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.nav-links a:hover,
+.nav-links span:hover {
+    background: rgba(0, 128, 0, 0.15); /* subtle green hover */
+    border-radius: 5px;
+}
+
+/* DROPDOWN MENU */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    min-width: 150px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu li {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: #000080;
+    padding: 10px 15px;
+}
+
+.dropdown-menu a:hover {
+    background: #138808; /* Indian Green */
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* 404 or Not Found */
+.not-found-container {
+    text-align: center;
+}
+
+/* TABLE STYLES */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+thead {
+    background: linear-gradient(90deg, #FF9933, #FFFFFF, #138808);
+    color: #000080;
+}
+
+thead th {
+    padding: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s ease-in-out;
+}
+
+tbody tr:hover {
+    background: rgba(255, 153, 51, 0.1); /* Saffron hover */
+}
+
+td {
+    padding: 12px;
+    color: #333;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* RESPONSIVE TABLE */
+@media screen and (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    td, th {
+        padding: 10px;
+    }
+}
+
+/* BUTTON STYLING */
+button {
+    background-color: #138808; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0f6606;
+}

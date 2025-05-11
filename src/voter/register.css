@@ -1,0 +1,55 @@
+.registration-container {
+    max-width: 400px;
+    margin: 60px auto;
+    background-color: #f8f8f8;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .registration-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .registration-container label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .registration-container input,
+  .registration-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .registration-container input[type="date"] {
+    padding-right: 6px;
+  }
+  
+  .registration-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #000, #333);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .registration-container button:hover {
+    background: linear-gradient(to right, #333, #000);
+  }
+  
