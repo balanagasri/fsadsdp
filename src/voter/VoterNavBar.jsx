@@ -1,5 +1,5 @@
 import { Routes, Route, Link } from 'react-router-dom';
-import './voter.css';
+import './Voter.css';
 import VoterHome from './VoterHome';
 import VoteNow from './VoteNow';
 import ViewElections from './ViewElections';
