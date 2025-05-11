@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './../voter/voter.css'
+import './../voter/Voter.css'
 
 const sampleElections = [
   {
